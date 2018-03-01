@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../css/shanping.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+
+</head>
+<body>
+<div class="swiper-container">
+    <div class="tg">跳过</div>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="sp">
+                <img src="../imgs/heart_03.png" alt="" class="anlian">
+                <img src="../imgs/heart_07.png" alt="" class="hearts">
+                <img src="../imgs/heart_11.png" alt="" class="zimu">
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="sp sp1">
+                <img src="../imgs/WZ04.png" alt="" class="anlian1">
+                <img src="../imgs/tu-01.png" alt="" class="hearts">
+                <img src="../imgs/WZ03.png" alt="" class="zimu">
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="sp sp2">
+            <img src="../imgs/WZ06.png" alt="" class="anlian1">
+            <img src="../imgs/tu---01.png" alt="" class="hearts">
+            <img src="../imgs/WZ05.png" alt="" class="zimu">
+        </div></div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/swiper.min.js"></script>
+<script src="../js/app.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    });
+    $(".tg").on("click",function(){
+        window.location="index.html";
+    })
+</script>
+</body>
+</html>

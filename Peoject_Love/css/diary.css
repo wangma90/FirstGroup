@@ -1,0 +1,77 @@
+.box{
+    width: 6.4rem;
+    height: 11.36rem;
+    margin: 0 auto;
+}
+.head{
+    width: 100%;
+    height: 0.8rem;
+    background: #ff8288;
+    color: #fff;
+    text-align: center;
+    line-height: 0.8rem;
+}
+.tc{
+    width: 0.5rem;
+    height: 0.5rem;
+    float: left;
+    background: url(../imgs/ge-01.png) no-repeat;
+    background-size: cover;
+    margin-left: 0.14rem;
+    margin-top: 0.2rem;
+}
+.right{
+    width: 0.34rem;
+    height: 0.34rem;
+    float: right;
+    background: url(../imgs/jiahao.png) no-repeat;
+    background-size: cover;
+    margin-right: 0.25rem;
+    margin-top: 0.23rem;
+}
+.head span{
+    font-size: 0.28rem;
+}
+.content{
+    width: 100%;height: 10.76rem;
+    background: rgb(253,239,231);
+    padding: 0.22rem 0.16rem 0 0.16rem;
+    box-sizing: border-box;
+}
+.cont{
+    width: 5.75rem;
+    min-height: 1.3rem;
+    padding: 0.25rem 0.15rem;
+    background: #fff;
+    border-radius: 10px;
+}
+.photo{
+    width: 1.07rem;
+    height: 1.07rem;
+    float: left;
+    border-radius: 50%;
+}
+.photo img{
+    width: 100%;
+}
+.test{width: 4.4rem;height:1.3rem;float: right;}
+.test-top{
+    width: 4.4rem;
+    height: 0.58rem;
+    line-height: 0.58rem;
+}
+.test-top span{
+    display: inline-block;
+    font-size: 0.36rem;
+    color: deeppink;
+}
+.test-top em{
+    display: inline-block;
+    font-size: 0.28rem;
+    float: right;
+    color: #cccccc;
+    margin-right: 0.2rem;
+}
+.test-bottom{
+    font-size: 0.24rem;
+}
